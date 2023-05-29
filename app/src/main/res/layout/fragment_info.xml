@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentInfo"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:background="#ccd1d4">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="25sp"
+            android:text="KALORİ TAKİP"
+            android:textStyle="bold"
+            android:textColor="#282828" />
+
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="75dp">
+
+        <TableRow>
+            <TextView
+                android:text="TARİH"
+                android:textSize="17sp"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal"
+                android:textAlignment="center"
+                android:layout_weight="6"
+                android:background="#ccd1d4"/>
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:background="#ccd1d4"
+                android:padding="10dp"
+                android:text="KALORİ"
+                android:textAlignment="center"
+                android:textSize="17sp" />
+
+            <TextView
+                android:text="VAKİT"
+                android:textSize="17sp"
+                android:padding="10dp"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:background="#ccd1d4"
+                android:layout_gravity="center_horizontal"/>
+
+
+
+
+
+        </TableRow>
+
+
+
+
+    </TableLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="124dp"
+        android:id="@+id/myrecyclerinfo" />
+
+</RelativeLayout>

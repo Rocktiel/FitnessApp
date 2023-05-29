@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "507084896650",
+    "firebase_url": "https://kalorideneme-default-rtdb.firebaseio.com",
+    "project_id": "kalorideneme",
+    "storage_bucket": "kalorideneme.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507084896650:android:df0f8a4aa1f38b5ea03073",
+        "android_client_info": {
+          "package_name": "com.example.fitnessappproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507084896650-8llhg1cuotepv89902m9dqqrfl6en60g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfh4b1fgflXJLFyFZzP-dR-U4Oz0O45SI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507084896650-8llhg1cuotepv89902m9dqqrfl6en60g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507084896650:android:e1819b92692655f4a03073",
+        "android_client_info": {
+          "package_name": "com.example.kalorirecyclerdeneme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507084896650-8llhg1cuotepv89902m9dqqrfl6en60g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfh4b1fgflXJLFyFZzP-dR-U4Oz0O45SI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507084896650-8llhg1cuotepv89902m9dqqrfl6en60g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507084896650:android:b97f32e6d55884e4a03073",
+        "android_client_info": {
+          "package_name": "com.example.mobilprogramlamaproje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507084896650-8llhg1cuotepv89902m9dqqrfl6en60g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfh4b1fgflXJLFyFZzP-dR-U4Oz0O45SI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507084896650-8llhg1cuotepv89902m9dqqrfl6en60g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

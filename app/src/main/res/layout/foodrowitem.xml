@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="97dp"
+    android:layout_margin="8dp"
+    android:background="@drawable/bgfoods"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/textViewad"
+        android:layout_width="140dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="89dp"
+        android:layout_marginTop="13dp"
+        android:text="TextView"
+        android:textSize="18sp"
+        android:textColor="#282828" />
+
+    <TextView
+        android:id="@+id/textViewKalori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="59dp"
+        android:gravity="center"
+        android:text="100"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textColor="#282828"/>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="59dp"
+        android:gravity="center"
+        android:text="Kalori:"
+
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:textColor="#282828"/>
+
+    <Button
+        android:id="@+id/butoncikar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="290dp"
+        android:layout_marginTop="28dp"
+        android:text="-"
+        android:textSize="17sp"/>
+
+    <Button
+        android:id="@+id/butonekle"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="17dp"
+        android:text="+"
+        android:textSize="17sp"
+        />
+
+    <TextView
+        android:id="@+id/adet"
+        android:layout_width="36dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="239dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#282828"
+        android:textSize="29sp" />
+
+    <ImageView
+        android:id="@+id/imageViewfood"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Kalori Hesapla"
+        android:id="@+id/calorie"
+        android:icon="@drawable/nutrition_svgrepo_com"
+        />
+    <item android:title="Kalori Takip"
+        android:id="@+id/information"
+        android:icon="@drawable/list_svgrepo_com"
+       />
+    <item android:title="Profil"
+        android:id="@+id/profile"
+        android:icon="@drawable/person"
+       />
+
+</menu>

@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="#ccd1d4"
+    android:id="@+id/kayit">
+
+    <EditText
+        android:maxLength="20"
+        android:id="@+id/emailkayit"
+        android:textColor="#282828"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="115dp"
+        android:ems="10"
+        android:hint="Kullanıcı Adınızı Giriniz"
+        android:textColorHint="#EAEBED"
+        android:inputType="text"
+        android:textSize="20sp"
+
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"/>
+
+    <TextView
+        android:textColor="#282828"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="80dp"
+        android:text="Kullanıcı Adı"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:maxLength="20"
+        android:id="@+id/name"
+        android:textColor="#282828"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="215dp"
+        android:ems="10"
+        android:hint="Adınızı Giriniz"
+        android:textColorHint="#EAEBED"
+        android:textSize="20sp"
+
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"/>
+
+    <EditText
+        android:maxLength="20"
+        android:id="@+id/surname"
+        android:textColor="#282828"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="315dp"
+        android:hint="Soyadınızı Giriniz"
+        android:textColorHint="#EAEBED"
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:maxLength="20"
+        android:id="@+id/password"
+        android:textColor="#282828"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="20dp"
+        android:paddingRight="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="415dp"
+        android:hint="Şifrenizi Giriniz"
+        android:inputType="textPassword"
+        android:textColorHint="#EAEBED"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:textColor="#282828"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="180dp"
+        android:text="Ad"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:textColor="#282828"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="280dp"
+        android:textSize="20dp"
+        android:text="Soyad"
+        />
+
+    <TextView
+        android:textColor="#282828"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="380dp"
+        android:textSize="20dp"
+        android:text="Şifre"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="77dp"
+        android:layout_marginTop="485dp"
+        android:text="Yaş"
+        android:textColor="#282828"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="484dp"
+        android:text="Ağırlık"
+
+        android:textColor="#282828"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="283dp"
+        android:layout_marginTop="487dp"
+        android:text="Boy"
+
+        android:textColor="#282828"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="614dp"
+
+        android:text="KAYIT OL"
+        android:textColor="#282828" />
+
+    <EditText
+        android:id="@+id/age"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="528dp"
+        android:inputType="number"
+        android:textColor="#282828" />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="162dp"
+        android:layout_marginTop="528dp"
+        android:inputType="number"
+        android:textColor="#282828" />
+
+    <EditText
+        android:id="@+id/height"
+        android:inputType="number"
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="264dp"
+        android:layout_marginTop="525dp"
+        android:textColor="#282828" />
+
+
+</RelativeLayout>
